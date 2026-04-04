@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <div class="chat-card">
+        <!-- Header -->
+        <div class="chat-header">
+            🏨 Royal Horizon Hotel FAQ Assistant
+
+            <form action="/clear" method="post">
+                <button type="submit">Clear Chat</button>
+            </form>
+
+
+        </div>
+
+        <!-- Chat messages -->
+        <div class="chat-box" id="chatBox">
+
+            {% for chat in chat_history %}
+            {% if chat.role == "user" %}
+            <div class="message user">
+                <strong>You:</strong> {{ chat.content }}
+            </div>
+            {% else %}
+            <div class="message bot">
+                <strong>Hotel:</strong> {{ chat.content }}
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+
+        <!-- Input -->
+        <form action="/" method="POST" class="chat-input">
+            <input type="text" name="message" placeholder="Type a message..." required autocomplete="off">
+            <button type="submit">➤</button>
+        </form>
+    </div>
+
+    <script>
+        const chatBox = document.getElementById("chatBox");
+        chatBox.scrollTop = chatBox.scrollHeight;
+    </script>
+</body>
+
+</html>

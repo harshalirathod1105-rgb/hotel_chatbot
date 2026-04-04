@@ -1,0 +1,137 @@
+{
+  "hotel_name": "Royal Horizon Hotel",
+  "location": "Parbhani, Maharashtra, India",
+  "contact": {
+    "phone": "+91-22-12345678",
+    "email": "feedback@royalhorizon.com",
+    "website": "https://www.royalhorizonhotel.com"
+  },
+  "check_in_time": "14:00",
+  "check_out_time": "12:00",
+
+  "rooms": [
+    {
+      "type": "Standard Room",
+      "capacity": "1-2 Guests",
+      "price_per_night_inr": "2000-2800",
+      "facilities": ["Queen Bed", "TV", "Free Wi-Fi"]
+    },
+    {
+      "type": "Deluxe Room",
+      "capacity": "2-3 Guests",
+      "price_per_night_inr": "3000-4200",
+      "facilities": ["Air Conditioning", "TV", "Mini-fridge", "Safe", "Wi-Fi"]
+    },
+    {
+      "type": "Suite Room",
+      "capacity": "2-4 Guests",
+      "price_per_night_inr": "6000-8500",
+      "facilities": ["King Bed", "Living Area", "Jacuzzi", "Balcony", "Premium Amenities"]
+    },
+    {
+      "type": "Family Room",
+      "capacity": "3-4 Guests",
+      "price_per_night_inr": "4500-6500",
+      "facilities": ["Two Bedrooms", "Sofa", "TV", "Wi-Fi"]
+    }
+  ],
+
+  "amenities": {
+    "wifi": "Complimentary high-speed Wi-Fi available throughout the hotel",
+    "parking": "Free valet and self-parking available",
+    "room_service": "24/7 room service available",
+    "laundry": {
+      "available": true,
+      "timings": "07:00-19:00",
+      "charges": "Extra charges applicable"
+    }
+  },
+
+  "dining": {
+    "restaurant": {
+      "type": "Multi-cuisine (Indian, Chinese, Continental)",
+      "timings": "12:00-23:00"
+    },
+    "breakfast": {
+      "included": true,
+      "type": "Buffet",
+      "timings": "07:00-10:00"
+    },
+    "bar": {
+      "type": "Rooftop bar serving cocktails and mocktails",
+      "timings": "17:00-00:00"
+    }
+  },
+
+  "facilities": {
+    "swimming_pool": {
+      "type": "Outdoor",
+      "timings": "06:00-21:00"
+    },
+    "gym": {
+      "availability": "24/7",
+      "trainer": "Available on request"
+    },
+    "spa": "Ayurvedic and Western massage therapies available"
+  },
+
+  "events": {
+    "conference_hall": {
+      "capacity": 200,
+      "features": "Fully equipped with audio-visual systems"
+    },
+    "banquet_hall": {
+      "capacity": 300,
+      "usage": "Weddings, parties, and events"
+    },
+    "event_planning": "Available on request"
+  },
+
+  "transport": {
+    "airport_pickup": "Available on prior request",
+    "shuttle_service": "Limited area shuttle service",
+    "local_transport": "Taxi and auto-rickshaw booking available",
+    "tourist_assistance": "Sightseeing packages available"
+  },
+
+  "policies": {
+    "advance_payment": "50% required at booking",
+    "cancellation": "Free cancellation up to 24 hours before check-in",
+    "children": "Children below 5 years stay free",
+    "pets": "Allowed with prior notice",
+    "smoking": "Non-smoking rooms available"
+  },
+
+  "accessibility": {
+    "wheelchair": true,
+    "ramps": true,
+    "elderly_friendly": true
+  },
+
+  "safety": {
+    "cctv": "24/7 surveillance",
+    "fire_safety": "Fire alarms installed",
+    "room_safe": "Available in all rooms",
+    "emergency_exit": "Clearly marked on each floor"
+  },
+
+  "housekeeping": {
+    "cleaning_schedule": "10:00-16:00 daily"
+  },
+
+  "offers": {
+    "seasonal_discounts": "Festive season discounts available",
+    "loyalty_program": "Points and benefits on repeated stays"
+  },
+
+  "nearby_attractions": [
+    "Hazrat Turabul Haq Dargah",
+    "Jintur Jain Temple",
+    "Gangakhed Fort"
+  ],
+
+  "shopping": [
+    "Local markets in Parbhani city",
+    "Nearby shopping complexes"
+  ]
+}
