@@ -3,12 +3,17 @@ from flask import Flask, request, render_template, redirect #pip install flask
 from groq import Groq #pip install groq
 import json #built in
 
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
 
 # Create Flask app instance
 app = Flask(__name__)
 
 # Initialize Groq client with your API key
-client = Groq(api_key="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")
+client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
 chat_history = [] # store chat history
 
